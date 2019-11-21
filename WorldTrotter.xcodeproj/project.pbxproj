@@ -16,6 +16,7 @@
 		4BA6E3F52377112100802B01 /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6E3F42377112100802B01 /* WorldTrotterTests.swift */; };
 		4BA6E4002377112100802B01 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6E3FF2377112100802B01 /* WorldTrotterUITests.swift */; };
 		4BA6E40E2378E54B00802B01 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6E40D2378E54B00802B01 /* ConversionViewController.swift */; };
+		4BD4EC002387488200A1BAD5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4EBFF2387488200A1BAD5 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4BA6E3FF2377112100802B01 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		4BA6E4012377112100802B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BA6E40D2378E54B00802B01 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		4BD4EBFF2387488200A1BAD5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				4BA6E3E82377112100802B01 /* LaunchScreen.storyboard */,
 				4BA6E3EB2377112100802B01 /* Info.plist */,
 				4BA6E40D2378E54B00802B01 /* ConversionViewController.swift */,
+				4BD4EBFF2387488200A1BAD5 /* MapViewController.swift */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				4BA6E3DE2377112000802B01 /* AppDelegate.swift in Sources */,
 				4BA6E40E2378E54B00802B01 /* ConversionViewController.swift in Sources */,
 				4BA6E3E02377112000802B01 /* SceneDelegate.swift in Sources */,
+				4BD4EC002387488200A1BAD5 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
