@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "degree celsius"; ObjectID = "Gxl-WW-VXn"; */
+"Gxl-WW-VXn.text" = "degree celsius";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "MtT-vm-nmd"; */
+"MtT-vm-nmd.title" = "Item";
+
+/* Class = "UILabel"; text = "is really"; ObjectID = "Ngg-33-hqw"; */
+"Ngg-33-hqw.text" = "is really";
+
+/* Class = "UILabel"; text = "degree celsius"; ObjectID = "Rgu-4t-jB6"; */
+"Rgu-4t-jB6.text" = "degree celsius";
+
+/* Class = "UILabel"; text = "degree farenheit"; ObjectID = "UWo-9Q-beh"; */
+"UWo-9Q-beh.text" = "degree farenheit";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "Xsn-1B-FUE"; */
+"Xsn-1B-FUE.text" = "100";
+
+/* Class = "UILabel"; text = "is really"; ObjectID = "dU1-Sa-9R8"; */
+"dU1-Sa-9R8.text" = "is really";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "mTa-E8-riM"; */
+"mTa-E8-riM.text" = "100";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "rPh-Lf-QcF"; */
+"rPh-Lf-QcF.title" = "Map";
+
+/* Class = "UITextField"; placeholder = "value"; ObjectID = "vEd-7b-wHn"; */
+"vEd-7b-wHn.placeholder" = "value";
+
+/* Class = "UITextField"; placeholder = "value"; ObjectID = "vbN-zi-w0K"; */
+"vbN-zi-w0K.placeholder" = "value";
+
+/* Class = "UILabel"; text = "degree farenheit"; ObjectID = "ynD-w6-4ry"; */
+"ynD-w6-4ry.text" = "degree farenheit";
+
+/* Class = "UITabBarItem"; title = "Convert"; ObjectID = "zF3-cU-eqc"; */
+"zF3-cU-eqc.title" = "Convert";
