@@ -27,14 +27,14 @@
                                 <color key="textColor" red="0.88235294119999996" green="0.34509803919999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degree celsius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rgu-4t-jB6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degree celsius" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rgu-4t-jB6">
                                 <rect key="frame" x="96" y="345" width="222" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294119999996" green="0.34509803919999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degree farenheit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ynD-w6-4ry">
-                                <rect key="frame" x="81.5" y="144" width="251" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degree farenheit" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ynD-w6-4ry">
+                                <rect key="frame" x="82" y="144" width="250.5" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" red="0.88235294119999996" green="0.34509803919999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -54,13 +54,21 @@
                         </subviews>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.95686274510000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Xsn-1B-FUE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fmb-nE-Pxc" secondAttribute="leading" id="8ut-y3-1ab"/>
+                            <constraint firstItem="fmb-nE-Pxc" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ynD-w6-4ry" secondAttribute="trailing" id="COf-fC-BRo"/>
                             <constraint firstItem="Rgu-4t-jB6" firstAttribute="centerX" secondItem="13L-RM-MSe" secondAttribute="centerX" id="EsE-bg-TXF"/>
                             <constraint firstItem="Rgu-4t-jB6" firstAttribute="top" secondItem="Xsn-1B-FUE" secondAttribute="bottom" constant="8" id="FWX-4H-OW3"/>
                             <constraint firstItem="ynD-w6-4ry" firstAttribute="centerX" secondItem="13L-RM-MSe" secondAttribute="centerX" id="J3g-Be-yyV"/>
+                            <constraint firstItem="fmb-nE-Pxc" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Xsn-1B-FUE" secondAttribute="trailing" id="NHY-Rk-o5I"/>
+                            <constraint firstItem="fmb-nE-Pxc" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Rgu-4t-jB6" secondAttribute="trailing" id="NZl-dU-Sfu"/>
+                            <constraint firstItem="fmb-nE-Pxc" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="dU1-Sa-9R8" secondAttribute="trailing" id="Rlx-vY-AL3"/>
+                            <constraint firstItem="Rgu-4t-jB6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fmb-nE-Pxc" secondAttribute="leading" id="T7q-io-Mg8"/>
                             <constraint firstItem="Xsn-1B-FUE" firstAttribute="top" secondItem="dU1-Sa-9R8" secondAttribute="bottom" constant="8" id="Tiq-d3-F3Z"/>
                             <constraint firstItem="ynD-w6-4ry" firstAttribute="top" secondItem="vbN-zi-w0K" secondAttribute="bottom" constant="8" id="VTC-dm-GoQ"/>
+                            <constraint firstItem="ynD-w6-4ry" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fmb-nE-Pxc" secondAttribute="leading" id="YHh-K4-7fN"/>
                             <constraint firstItem="vbN-zi-w0K" firstAttribute="centerX" secondItem="13L-RM-MSe" secondAttribute="centerX" id="i6M-zp-3Ao"/>
                             <constraint firstItem="Xsn-1B-FUE" firstAttribute="centerX" secondItem="13L-RM-MSe" secondAttribute="centerX" id="jHG-Rc-gqa"/>
+                            <constraint firstItem="dU1-Sa-9R8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fmb-nE-Pxc" secondAttribute="leading" id="mAF-cs-uB4"/>
                             <constraint firstItem="dU1-Sa-9R8" firstAttribute="centerX" secondItem="13L-RM-MSe" secondAttribute="centerX" id="oHJ-t8-QhH"/>
                             <constraint firstItem="dU1-Sa-9R8" firstAttribute="top" secondItem="ynD-w6-4ry" secondAttribute="bottom" constant="8" id="sTd-nZ-s33"/>
                             <constraint firstItem="vbN-zi-w0K" firstAttribute="top" secondItem="fmb-nE-Pxc" secondAttribute="top" constant="8" id="wMA-GN-WBd"/>
