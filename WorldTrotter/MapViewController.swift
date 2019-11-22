@@ -43,6 +43,7 @@ class MapViewController: UIViewController {
         print("MapViewController loaded its view")
     }
     
+    @objc
     func mapTypeChanged(_ segControl: UISegmentedControl) {
         switch segControl.selectedSegmentIndex {
           case 0:
