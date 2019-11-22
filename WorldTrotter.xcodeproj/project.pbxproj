@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07C4516523888B7200698BE2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07C4516423888B7200698BE2 /* Localizable.strings */; };
 		07CC6B672385D8B700951589 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CC6B662385D8B700951589 /* MapKit.framework */; };
 		4BA6E3DE2377112000802B01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6E3DD2377112000802B01 /* AppDelegate.swift */; };
 		4BA6E3E02377112000802B01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA6E3DF2377112000802B01 /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07C4516423888B7200698BE2 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		07CC6B662385D8B700951589 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		07D095072388840500496137 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		07D095082388849600496137 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				4BA6E3EB2377112100802B01 /* Info.plist */,
 				4BA6E40D2378E54B00802B01 /* ConversionViewController.swift */,
 				4BD4EBFF2387488200A1BAD5 /* MapViewController.swift */,
+				07C4516423888B7200698BE2 /* Localizable.strings */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BA6E3EA2377112100802B01 /* LaunchScreen.storyboard in Resources */,
+				07C4516523888B7200698BE2 /* Localizable.strings in Resources */,
 				4BA6E3E72377112100802B01 /* Assets.xcassets in Resources */,
 				4BA6E3E52377112000802B01 /* Main.storyboard in Resources */,
 			);
